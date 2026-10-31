@@ -1,0 +1,12 @@
+# OPTIONAL: select only after checking existing rules and owner preferences.
+# These are separate groups, not a replacement robots.txt file.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Google-Extended also controls certain Gemini/Vertex grounding uses.
+User-agent: Google-Extended
+Disallow: /

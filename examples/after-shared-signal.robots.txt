@@ -1,0 +1,10 @@
+# Existing site rules — preserve these.
+User-agent: *
+Disallow: /admin/
+Allow: /public/
+
+Sitemap: https://example.com/sitemap.xml
+
+# Shared training preference; draft signal and provider rollout caveats apply.
+User-Agent: __usage_ai-training
+Disallow: /

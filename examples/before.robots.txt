@@ -1,0 +1,6 @@
+# Existing site rules — preserve these.
+User-agent: *
+Disallow: /admin/
+Allow: /public/
+
+Sitemap: https://example.com/sitemap.xml
